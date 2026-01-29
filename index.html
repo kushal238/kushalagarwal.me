@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kushal Agarwal - Portfolio">
+    <title>Kushal Agarwal | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">KA</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Hi, I'm <span class="gradient-text">Kushal Agarwal</span></h1>
+            <p class="hero-subtitle fade-in-delay">CS Master's Student @ UIUC | Software Engineer | AI/ML Researcher</p>
+            <div class="hero-cta fade-in-delay-2">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Kushal, a Master's student in Computer Science at the University of Illinois at Urbana-Champaign (expected May 2026). I graduated with my Bachelor's in CS from UIUC in May 2025, earning Dean's List and James Scholar honors with a 3.8/4.0 GPA.</p>
+                    <p>I'm passionate about building scalable systems and leveraging AI/ML to solve real-world problems. My experience spans from biomedical AI research to building high-throughput backend systems at Amazon. I am currently working on a healthcare platform for the Indian market that is achieving ABDM compliance.</p>
+                    <p>I specialize in full-stack development, cloud architecture, and AI/ML engineering, with a focus on creating efficient, secure, and user-centric solutions that make a meaningful impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🤖</div>
+                    <h3>AI/ML Engineering</h3>
+                    <p>GraphRAG, PyTorch, Agentic Workflows, JSON Mode, Prompt Engineering, Raw Python Scripting</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Languages</h3>
+                    <p>Python (Advanced), TypeScript, Java, SQL, C++, Kotlin</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Backend & Cloud</h3>
+                    <p>AWS (Lambda, DynamoDB), Supabase, PostgreSQL (RLS/RBAC), Edge Functions, Docker</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Tools & Platforms</h3>
+                    <p>Git, Datadog, Jira, Google Colab, RESTful APIs, CLI Tooling, Flutter</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Software Development Engineer Intern</h3>
+                            <p class="company">Amazon</p>
+                        </div>
+                        <div class="experience-date">June 2025 – August 2025</div>
+                    </div>
+                    <ul class="experience-list">
+                        <li>Reduced client onboarding time from ~1 week to zero-touch by automating end-to-end workflow using AWS Lambda, DynamoDB, and S3</li>
+                        <li>Increased onboarding throughput by ~6x with a stateless, idempotent architecture utilizing exponential-backoff retries for resilience</li>
+                        <li>Ensured 100% data consistency during legacy migration by writing custom Python and TypeScript utility scripts</li>
+                        <li>Eliminated 95% of engineering support tickets by exposing internal business logic via secure RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <h3>Research Assistant (Bio-Medical AI)</h3>
+                            <p class="company">Data Mining Group, UIUC</p>
+                        </div>
+                        <div class="experience-date">August 2024 – May 2025</div>
+                    </div>
+                    <ul class="experience-list">
+                        <li>Boosted model question-answering accuracy by 5% on clinical benchmarks using agentic workflows in Python</li>
+                        <li>Achieved 4% accuracy gain by implementing GraphRAG to transform unstructured biomedical text into semantic triples/graphs</li>
+                        <li>Optimized context window usage and reduced hallucinations with custom retrieval pipeline bypassing high-level abstractions</li>
+                        <li>Validated system performance improvements by writing custom Python evaluation scripts for benchmarking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🏥</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Aria (ariamed.ai)</h3>
+                        <p>Digital prescription platform for the Indian market achieving ABDM compliance. Standardized drug data with SNOMED International terminology and implemented secure multi-tenant backend with RBAC.</p>
+                        <div class="project-tags">
+                            <span class="tag">Supabase</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Edge Functions</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ariamed.ai" target="_blank" class="project-link">CHeck it out →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🤖</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bio-Medical AI Research</h3>
+                        <p>Boosted clinical question-answering accuracy by 5% using GraphRAG to transform biomedical text into semantic graphs. Optimized context window usage and reduced hallucinations with custom retrieval pipeline.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">GraphRAG</span>
+                            <span class="tag">JSON schemas</span>
+                            <span class="tag">PyTorch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://cs.illinois.edu" target="_blank" class="project-link">UIUC Research →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🏎️</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Illini Motorsports Data Systems</h3>
+                        <p>Built Python data ingestion pipelines to parse and normalize Bosch DARAB sensor logs. Reduced gear-shift times by 0.05 seconds per change using algorithmic telemetry analysis.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Pipelines</span>
+                            <span class="tag">Time-series Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://motorsports.illinois.edu" target="_blank" class="project-link">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                <div class="contact-links">
+                    <a href="mailto:kushalagarwalcr7@gmail.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        <span>kushalagarwalcr7@gmail.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/kushalagarwal7" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="tel:+12172002895" class="contact-link">
+                        <span class="contact-icon">📱</span>
+                        <span>(217) 200-2895</span>
+                    </a>
+                    <a href="https://ariamed.ai" target="_blank" class="contact-link">
+                        <span class="contact-icon">🏥</span>
+                        <span>Aria Project</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Kushal Agarwal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
